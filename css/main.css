@@ -1,5 +1,33 @@
-body > header > div > div > div > div.contenido1.col-lg-12.col-md-12.col-sm-12.hidden-xs {
-    
-    background: #F7B617;
-    
+/*Navbar*/
+
+.navbar {
+    margin: 0;
+    padding: 10px;
+}
+
+
+/*Fondo Header*/
+.fondo{
+  background-image: url(../assets/images/taxi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center bottom;
+}
+
+/*Cuadro header*/
+.cuadro-amarillo{
+  right: 0px;
+  background-color: #FBBE00;
+  margin-top: 100px;
+  float: right;
+}
+
+.contenido{
+  margin: 30px 20px 30px 20px;
+}
+.contenido-resp {
+  padding: 10px;
+  padding-bottom: 20px;
 }
