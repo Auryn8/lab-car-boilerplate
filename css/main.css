@@ -7,7 +7,7 @@
 
 
 /*Fondo Header*/
-.fondo{
+.fondo {
   background-image: url(../assets/images/taxi.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,17 +17,57 @@
 }
 
 /*Cuadro header*/
-.cuadro-amarillo{
+.cuadro-amarillo {
   right: 0px;
   background-color: #FBBE00;
   margin-top: 100px;
   float: right;
 }
 
-.contenido{
+.contenido {
   margin: 30px 20px 30px 20px;
 }
 .contenido-resp {
   padding: 10px;
   padding-bottom: 20px;
+}
+
+/*textos*/
+.blanco {
+  color: white;
+}
+.negrita {
+  font-weight: bold;
+}
+.abajo {
+  padding-bottom: 10px;
+}
+
+/*app section*/
+.app {
+  background-color: #FBBE00;
+}
+.app-box {
+  border: 1px solid white;
+  margin: 30px 0px;
+}
+.imagen {
+  padding: 32px;
+}
+.texto-app {
+  padding: 30px;    
+}
+
+.texto-caja{
+    width: 63%;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    padding: 9px;
+    
+}
+
+.app-resp {
+  border: 1px solid white;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
