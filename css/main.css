@@ -58,7 +58,7 @@
   padding: 30px;    
 }
 
-.app-txt-box{
+.app-txt-box {
     width: 63%;
     font-size: 1.8rem;
     font-weight: lighter;
@@ -73,22 +73,46 @@
 }
 
 /*driver section*/
-.driver{
+.driver {
   background-image: url(../assets/images/conduce.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 70vh;
 }
-.driver-box{
+.driver-box {
   background-color: rgba(0,0,0,0.5);
   float: right;
   height: 70vh;
   padding: 50px;
 }
-.driver-btn{
+.driver-btn {
   color: white;
   background-color: #FBBE00;
   border: 1px solid #FBBE00;
 }
 
+/*map section*/
+.map-box {
+  background-color: #FBBE00;
+}
+.route-box {
+  padding: 30px;
+}
+.form {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;    
+  color: white;
+  width:75%; 
+}
+
+#map {
+  background-image: url(../assets/images/map.jpeg);
+  width: 350px;
+  height: 350px;
+  border: 1px solid white;
+  padding: 50px;
+  margin: 30px;
+  float: right;
+}
