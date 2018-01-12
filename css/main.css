@@ -17,7 +17,7 @@
 }
 
 /*Cuadro header*/
-.cuadro-amarillo {
+.amarillo-box {
   right: 0px;
   background-color: #FBBE00;
   margin-top: 100px;
@@ -58,7 +58,7 @@
   padding: 30px;    
 }
 
-.texto-caja{
+.app-txt-box{
     width: 63%;
     font-size: 1.8rem;
     font-weight: lighter;
@@ -71,3 +71,24 @@
   margin-bottom: 30px;
   margin-top: 30px;
 }
+
+/*driver section*/
+.driver{
+  background-image: url(../assets/images/conduce.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+.driver-box{
+  background-color: rgba(0,0,0,0.5);
+  float: right;
+  height: 70vh;
+  padding: 50px;
+}
+.driver-btn{
+  color: white;
+  background-color: #FBBE00;
+  border: 1px solid #FBBE00;
+}
+
