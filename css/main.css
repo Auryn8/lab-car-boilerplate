@@ -105,6 +105,7 @@
   border-radius: 5px;    
   color: white;
   width:75%; 
+  margin: 10px;    
 }
 
 #map {
@@ -115,4 +116,38 @@
   padding: 50px;
   margin: 30px;
   float: right;
+}
+
+footer {
+  background-color: #2b2b2b;
+}
+.logo {
+  width: 70px;
+  height: 20px;
+}
+.logo1 {
+  width: 70px;
+  height: 20px;
+}
+
+.pie {
+  padding: 30px;
+}
+
+.tiendas {
+  padding-top: 80px;
+    
+}
+
+.store img {    
+   padding: 5px;    
+   width: 9vw;
+   height: 7vh;
+}
+
+
+footer ul li{
+  color: white;
+  text-decoration: none;
+  list-style: none;
 }
